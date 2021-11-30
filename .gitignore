@@ -1,0 +1,13 @@
+# npm
+package-lock.json
+node_modules
+
+# idea
+.idea
+说明.json
+
+# vuepress
+docs/.vuepress/dist
+
+# mac
+.DS_Store
