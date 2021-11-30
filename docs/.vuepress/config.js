@@ -3,8 +3,10 @@ const plugins = require('./config/plugins.js');
 const themeConfig = require('./config/themeConfig.js');
 
 module.exports = {
+  //解决github部署404问题
   base:'/Financial-Manager/',
-  theme: 'vdoing', // 使用npm包主题
+  // theme: 'vdoing', // 使用npm包主题
+  theme: 'vuepress-theme-doc', // 使用npm包主题
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
   title: "Evan's blog",
