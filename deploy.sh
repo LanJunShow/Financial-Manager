@@ -14,10 +14,10 @@ cd docs/.vuepress/dist
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:LanJunShow/Financial-Manager.git
+  githubUrl=git@github.com:LanJunShow/Financial-Manager.github.io.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://LanJunShow:${GITHUB_TOKEN}@github.com/LanJunShow/Financial-Manager.git
+  githubUrl=https://LanJunShow:${GITHUB_TOKEN}@github.com/LanJunShow/Financial-Manager.github.io.git
   git config --global user.name "LanJunShow"
   git config --global user.email "904668302@qq.com"
 fi
