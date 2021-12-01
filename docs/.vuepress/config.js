@@ -4,7 +4,7 @@ const themeConfig = require('./config/themeConfig.js');
 
 module.exports = {
   //解决github部署404问题 base: '/', // 格式：'/<仓库名>/'， 默认'/'
-  // base:'/Financial-Manager/',
+  base:'/Financial-Manager/',
   theme: 'vdoing', // 使用npm包主题
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
 
