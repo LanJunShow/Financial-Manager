@@ -24,22 +24,22 @@ features: # 可选的
   - title: 后端
     details: 开发环境、架构图、技术框架
     link: /ui/
-    imgUrl: /img/ui.png
+    #imgUrl: /img/ui.png
   - title: 部署
     details: 部署环境、部署方案和流程
     link: /technology/
-    imgUrl: /img/other.png
+    #imgUrl: /img/other.png
   - title: 测试
     details: 功能、API、压力完整方案和流程
     link: /technology/
-    imgUrl: /img/other.png
+    #imgUrl: /img/other.png
   - title: 运维
     details: 运维方案和流程
     link: /technology/
     #imgUrl: /img/other.png
 
 # 文章列表显示方式: detailed 默认，显示详细版文章列表（包括作者、分类、标签、摘要、分页等）| simple => 显示简约版文章列表（仅标题和日期）| none 不显示文章列表
-# postList: detailed
+postList: none
 # simplePostListLength: 10 # 简约版文章列表显示的文章数量，默认10。（仅在postList设置为simple时生效）
 ---
 
